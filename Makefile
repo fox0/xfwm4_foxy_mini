@@ -1,7 +1,7 @@
 active_color=\#00aa00
 inactive_color=\#00aaaa
 
-title_height=15
+title_height=14
 title_color=\#222222
 
 all: xfwm4/bottom-active.png xfwm4/bottom-inactive.png xfwm4/left-active.png xfwm4/left-inactive.png xfwm4/right-active.png xfwm4/right-inactive.png xfwm4/title-1-active.png xfwm4/title-2-active.png xfwm4/title-3-active.png xfwm4/title-4-active.png xfwm4/title-5-active.png xfwm4/title-1-inactive.png xfwm4/title-2-inactive.png xfwm4/title-3-inactive.png xfwm4/title-4-inactive.png xfwm4/title-5-inactive.png xfwm4/close-active.png xfwm4/close-inactive.png xfwm4/close-prelight.png xfwm4/close-pressed.png xfwm4/hide-active.png xfwm4/hide-inactive.png xfwm4/hide-prelight.png xfwm4/hide-pressed.png xfwm4/maximize-active.png xfwm4/maximize-inactive.png xfwm4/maximize-prelight.png xfwm4/maximize-pressed.png xfwm4/stick-active.png xfwm4/stick-inactive.png xfwm4/stick-prelight.png xfwm4/stick-pressed.png xfwm4/maximize-toggled-active.png xfwm4/maximize-toggled-inactive.png  xfwm4/stick-toggled-active.png xfwm4/stick-toggled-inactive.png 
