@@ -46,23 +46,35 @@ xfwm4/close-active.png:
 xfwm4/close-inactive.png:
 	convert -size $(button_width)x$(title_height) xc:#3f0000 $@
 
+
 xfwm4/close-prelight.png:
 	convert -size $(button_width)x$(title_height) xc:#ff0000 $@
 
-xfwm4/close-pressed.png:
-	convert -size $(button_width)x$(title_height) xc:#ffffff $@
+xfwm4/maximize-prelight.png:
+	convert -size $(button_width)x$(title_height) xc:#ffffaa $@
 
-xfwm4/%-toggled-active.png:
-	convert -size $(button_width)x$(title_height) xc:#006f00 $@
+xfwm4/hide-prelight.png:
+	convert -size $(button_width)x$(title_height) xc:#aaffaa $@
 
-xfwm4/%-toggled-inactive.png:
-	convert -size $(button_width)x$(title_height) xc:#003f00 $@
+xfwm4/stick-prelight.png:
+	convert -size $(button_width)x$(title_height) xc:#aaffff $@
+
+
+xfwm4/maximize-toggled-active.png:
+	convert -size $(button_width)x$(title_height) xc:#6f6f00 $@
+
+xfwm4/maximize-toggled-inactive.png:
+	convert -size $(button_width)x$(title_height) xc:#3f3f00 $@
+
+xfwm4/stick-toggled-active.png:
+	convert -size $(button_width)x$(title_height) xc:#006f6f $@
+
+xfwm4/stick-toggled-inactive.png:
+	convert -size $(button_width)x$(title_height) xc:#003f3f $@
+
 
 xfwm4/%-active.png:
 	convert -size $(button_width)x$(title_height) xc:#6f6f6f $@
-
-xfwm4/%-prelight.png:
-	convert -size $(button_width)x$(title_height) xc:#aaffaa $@
 
 xfwm4/%-inactive.png:
 	convert -size $(button_width)x$(title_height) xc:#3f3f3f $@
